@@ -11,11 +11,13 @@ import Datepicker from 'hsy-vue-datepicker'
 import Tree from 'hsy-vue-tree'
 import Dialog from 'hsy-vue-dialog'
 import Tooltip from 'hsy-vue-tooltip'
+import Dropdown from 'hsy-vue-dropdown'
 
 Vue.use(Datepicker)
 Vue.use(Tree)
 Vue.use(Dialog)
 Vue.use(Tooltip)
+Vue.use(Dropdown)
 
 Vue.use(VueRouter)
 

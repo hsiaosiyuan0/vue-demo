@@ -12,6 +12,7 @@
   "dependencies": {
     "hsy-vue-datepicker": "^0.0.5",
     "hsy-vue-dialog": "^0.0.3",
+    "hsy-vue-dropdown": "^0.0.1",
     "hsy-vue-tooltip": "^0.0.2",
     "hsy-vue-tree": "^0.0.2",
     "vue": "^2.1.10",
