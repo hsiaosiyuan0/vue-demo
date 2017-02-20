@@ -2,13 +2,22 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import router from './router'
+
+import VueRouter from 'vue-router'
+import routes from './routes'
+
 import 'moment'
 import Datepicker from 'hsy-vue-datepicker'
 import Tree from 'hsy-vue-tree'
 
 Vue.use(Datepicker)
 Vue.use(Tree)
+
+Vue.use(VueRouter)
+
+const router = new VueRouter({
+  routes
+})
 
 /* eslint-disable no-new */
 new Vue({
