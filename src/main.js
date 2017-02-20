@@ -9,9 +9,11 @@ import routes from './routes'
 import 'moment'
 import Datepicker from 'hsy-vue-datepicker'
 import Tree from 'hsy-vue-tree'
+import Dialog from 'hsy-vue-dialog'
 
 Vue.use(Datepicker)
 Vue.use(Tree)
+Vue.use(Dialog)
 
 Vue.use(VueRouter)
 
